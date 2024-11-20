@@ -16,8 +16,8 @@ class MyTestCase(unittest.TestCase):
     def test_soustraction(self):
         self.assertEqual(soustraction(3,2), 1)
 
-    # def test_soustraction_with_failed(self):
-    #     self.assertEqual(soustraction(3,2), 5)
+    def test_soustraction_with_failed(self):
+        self.assertEqual(soustraction(3,2), 5)
 
     def test_puissance(self):
         self.assertEqual(puissance(2,3), 8)
