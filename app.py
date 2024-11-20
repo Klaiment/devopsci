@@ -1,17 +1,22 @@
 def multiplication(x, y):
     return x * y
 
+
 def division(x, y):
     return x / y
+
 
 def addition(x, y):
     return x + y
 
+
 def soustraction(x, y):
     return x - y
 
+
 def puissance(x, y):
     return x ** y
+
 
 if __name__ == '__main__':
     print(multiplication(2, 3))
